@@ -3,7 +3,7 @@
   <head>
     <title>Nikhil's Meeting Notes</title>
     <meta name="author" content="Nikhil Dange's page">
-    <link rel="favicon" href="favicon.jpg">
+    <link rel="stylesheet" href="main.css">
   </head>
 
   <body>
@@ -62,7 +62,7 @@
       <li><strong> Summarize and move forward</strong></li>
     </ol>
 
-    <div>
+    <div class="min">
       This took 15 minutes.
     </div>
 
@@ -73,7 +73,7 @@
       <li>Deploy new backend changes</li>
     </ol>
 
-    <div>
+    <div id="min-div">
       This took 25 minutes.
     </div>
 
@@ -87,7 +87,7 @@
       <a href="https://expressjs.com">Here is the info for Express, which makes creating routes easy</a>
     </span>
 
-    <div>
+    <div id="second-div">
       This took 25 minutes.
     </div>
 
@@ -101,21 +101,37 @@
     <p>
       Asim mentioned that he was going to start refactoring his <i>very messy</i> backend code 
     </p>
-    <p>
+    <p id="first-para">
       We might need to hire a new designer and UX researcher, since <em>users want a more friendly UI</em>
     </p>
 
     <hr>
 
-    These are not our meeting notes but we want them to look like this in the future.<br>
-    <img src="resources/110meetingboard.jpg" alt="Our Notes" width="320" height="240"><br>
+    <div class="container">
+      Media:
+     <div>
+        These are not our meeting notes but we want them to look like this in the future.<br>
+        <img src="resources/110meetingboard.jpg" alt="Our Notes" width="320" height="240"><br>
+      </div>
+      <p>More text here!</p>
+    </div>
 
 
     Here's a cool video I got of a rainbow in San Francisco:
-    <video width="320" height="240" controls>
-      <source src="resources/110video.mp4" type="video/mp4">
-      Please check your browser for video compatibility.
-    </video><br>
+    <div class="container2">
+      <video id="vid" width="320" height="240" controls>
+        <source src="resources/110video.mp4" type="video/mp4">
+        Please check your browser for video compatibility.
+      </video><br>
+      <div>
+        <p class="first-p">
+          More text here!
+        </p>
+      </div>
+      <span>
+        Hi
+      </span>
+    </div>
 
 
     And here's the audio of it:

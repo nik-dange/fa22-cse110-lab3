@@ -1,0 +1,110 @@
+/* starting my CSS below! */
+
+h1 {
+    color: blue;
+}
+h2 {
+    color: #FFFF00;
+    color: hsl(50, 80%, 40%);
+}
+h3 {
+    color: rgb(132, 185, 71);
+    margin: 25px 25px 25px 25px;
+    text-align: justify;
+    text-decoration: dotted;
+}
+nav {
+    background-color: bisque;
+    margin: auto;
+    border-color: black;
+    border-style: groove;
+    border-radius: 1rem;
+    border-width: 3px;
+}
+
+.min{
+    text-align: center;
+    margin: auto;
+    display: inline;
+    position: static;
+}
+
+button:hover {
+    color: darkgreen;
+}
+
+button:active{
+    box-shadow: 10px 10px 10px green;
+}
+
+/* see if this works */
+#vid{
+    display: flex;
+    align-items: flex-end;
+}
+
+#min-div{
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin: 1em;
+    display: inline-block;
+}
+
+#second-div{
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+#first-para{
+    padding: 25px 25px 25px 25px;
+    border: green groove 1rem 3px;
+}
+
+#vid{
+    position: sticky;
+    max-width: 400;
+    max-height: 300;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+
+.container2{
+    display: grid;
+    grid-area: auto;
+    grid-row: span;
+    grid-column-start: auto;
+}
+
+@media screen and (max-width: 600px){
+    h3{
+        background-color: blueviolet;
+        font: 700;
+    }
+}
+
+p.first-p{
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div + p {
+    background-color: brown;
+}
+
+div ~ span {
+    text-align: right;
+}
+
+li li {
+    text-align: center;
+}
